@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "give_items": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld"
+                    },
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "banish:escape": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "banish:give_items"
+    }
+}

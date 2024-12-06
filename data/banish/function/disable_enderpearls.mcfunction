@@ -1,0 +1,1 @@
+$execute as @e[type=minecraft:ender_pearl,tag=!banish_disabled,predicate=!banish:banished,nbt={Owner:$(UUID)}] run function banish:disable_self

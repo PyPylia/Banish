@@ -1,0 +1,2 @@
+$execute if entity @a[predicate=!banish:banished,nbt={UUID:$(owner)},limit=1] run data modify entity @s Owner set from entity @s Item.components."minecraft:custom_data"."banish:stored_owner"
+$execute if entity @a[predicate=!banish:banished,nbt={UUID:$(owner)},limit=1] run tag @s remove banish_disabled

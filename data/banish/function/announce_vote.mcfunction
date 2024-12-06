@@ -1,0 +1,1 @@
+$me has voted to banish @a[nbt={UUID:$(UUID)},limit=1]! ($(vote_count)/$(min_votes))

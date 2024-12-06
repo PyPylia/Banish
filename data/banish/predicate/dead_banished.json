@@ -1,0 +1,23 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "dimension": "banish:nether"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "_banish_tsd": {
+                    "max": 2
+                }
+            }
+        }
+    ]
+}

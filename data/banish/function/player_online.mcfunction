@@ -1,0 +1,2 @@
+data remove storage banish:banish func_return.player_online
+$execute if entity @a[predicate=!banish:banished,nbt={UUID:$(UUID)},limit=1] run data modify storage banish:banish func_return.player_online set value 1b
