@@ -15,4 +15,5 @@ Your items will be given back to you when you escape.
 Controls what percentage of players need to vote on someone before they get banished.
 
 ### Admin - Cruel mode
-When enabled, the banished player spawns on the nether roof instead, making it even harder (although technically not impossible) to escape.
+When enabled, the banished player spawns on the nether roof instead, making it even harder (although technically not impossible) to escape.  
+To allow for players to actually escape without exploits, while enabled magma cubes will drop glowstone occasionally.
